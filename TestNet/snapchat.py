@@ -33,9 +33,9 @@ def schedule_post(access_token, media_id, ad_account_id, scheduled_time):
     pass
 
 # Example usage
-client_id = 'YOUR_CLIENT_ID'
-client_secret = 'YOUR_CLIENT_SECRET'
-ad_account_id = 'YOUR_AD_ACCOUNT_ID'
+client_id = '717ee739-e987-4247-a160-592d2481068a'
+client_secret = 'PcEx2Hzobi2VRicxl0Lf427iZqOmh1j_AIAe5a0y4NQ'
+ad_account_id = '5220ebf8-6425-44be-8498-7926205ea49e'
 video_path = 'path/to/your/video.mp4'
 
 access_token = authenticate(client_id, client_secret)
