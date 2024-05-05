@@ -51,10 +51,10 @@ def upload_video_to_facebook(access_token, page_id, video_path, description="", 
     return video_id
 
 # Usage
-access_token = 'YOUR_ACCESS_TOKEN'
-page_id = 'YOUR_PAGE_ID'
-video_path = 'path/to/your/video.mp4'
+access_token = 'EAAF40l6ZBZAAoBOywS3WaNnhwcud7Xj4YuntZAEnvVc4Ut8kviJhZBZCEnMJ78Y090GcdDj5ZCaL3Gmy9jPnJ9DzJ4lZBuMEAdaoZA51sFIBGM5Qi8ScGML0bGPR0zYOYcCekvIe83v8KvKMYAipZCNr97VxXmf9FMr4F7tRdmzQQm6lmTBIoSFczyCfb6u6aVZCXZAtPFZCCYgZAzaczWxR1ujgpjpuJ4O3STpZBfr6eLKlk5GMYHmxGI4hlSxHmVj1IHcHijUvdjKwZDZD'
+page_id = '122108159030294266'
+video_path = r'../VideoDirectory/TestVideo.mp4'
 description = "Here is a new video!"
-scheduled_time = int(time.mktime(time.strptime("YYYY-MM-DD HH:MM:SS", "%Y-%m-%d %H:%M:%S")))  # Set the exact time
+scheduled_time = int(time.mktime(time.strptime("2024-05-5 16:02:00", "%Y-%m-%d %H:%M:%S")))  # Set the exact time
 video_id = upload_video_to_facebook(access_token, page_id, video_path, description, scheduled_time)
 print(f"Video scheduled with ID: {video_id}")
