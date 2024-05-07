@@ -51,7 +51,7 @@ def upload_video_to_facebook(access_token, page_id, video_path, description="", 
     return video_id
 
 # Usage
-access_token = 'EAAF40l6ZBZAAoBOywS3WaNnhwcud7Xj4YuntZAEnvVc4Ut8kviJhZBZCEnMJ78Y090GcdDj5ZCaL3Gmy9jPnJ9DzJ4lZBuMEAdaoZA51sFIBGM5Qi8ScGML0bGPR0zYOYcCekvIe83v8KvKMYAipZCNr97VxXmf9FMr4F7tRdmzQQm6lmTBIoSFczyCfb6u6aVZCXZAtPFZCCYgZAzaczWxR1ujgpjpuJ4O3STpZBfr6eLKlk5GMYHmxGI4hlSxHmVj1IHcHijUvdjKwZDZD'
+access_token = 'EAAOPuDkZAYZAQBO5FNNZA3ZBHVeZAHzW4JCaEU4DuuWPfRqGyGeHBolmdvxHet22LLRZAvedusZCSG0uXkXw2iv54ZCHqjuXopQBVrZBctS1dBNvE0cpPw5ZCyh3DsqFBIsx8RngfTgAFZA7qGnmROpxkJ7wjxsp7T9PgBCCpMMLgjc6G0TrYFSZCMcriGTY48cT5uKeZB7HBa6rtU4oxLcZAyPg7cyG8X2lAhxUZB8TdEZD'
 page_id = '122108159030294266'
 video_path = r'../VideoDirectory/TestVideo.mp4'
 description = "Here is a new video!"
