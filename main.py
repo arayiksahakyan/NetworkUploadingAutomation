@@ -11,7 +11,7 @@ import twitter_utils
 
 scheduler = sched.scheduler(time.time, time.sleep)
 
-def start_upload(video_path, video_text, video_tags, date, language):
+def start_upload(video_path, video_text, video_tags, language):
     print(f"Uploading video: {video_text} at {datetime.datetime.now()}")
     facebook_utils.upload_video_to_facebook(video_path, video_text, video_tags, language)
     instagram_utils.upload_video(video_path, video_text, video_tags, language)
