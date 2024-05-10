@@ -12,11 +12,11 @@ This program enables users to seamlessly schedule and upload videos across multi
 Before running the scheduler, it's essential to configure each utility file to meet the specific requirements of the various social media platforms. Follow these step-by-step instructions to ensure your setup is complete and accurate.
 
 
-##Main Program (main.py)
+## Main Program (main.py)
 
 Upon executing the main file, the program will prompt you to input the required parameters.
 
-##Facebook Utilities (facebook_utils.py)
+## Facebook Utilities (facebook_utils.py)
 
 In the upload_video_to_facebook function of the facebook_utils file, you'll encounter patterns where you can input your appropriate data.
 
@@ -34,7 +34,7 @@ Permissions and Access Tokens:
 Determine the permissions your application necessitates. For video uploads to a Facebook page, permissions such as pages_read_engagement, pages_manage_posts, and pages_manage_media are often essential. These permissions can be requested through your app's dashboard on Facebook for Developers and must be granted by the user or page administrator.
 
 
-##Instagram Utilities (instagram_utils.py)
+## Instagram Utilities (instagram_utils.py)
 
 In the upload_video function of the instagram_utils file, you'll encounter patterns where you can input your appropriate data.
 
@@ -72,7 +72,7 @@ Maintain Compliance:
 Keep your application updated with any changes in Instagram's API and policy updates to avoid service interruptions or access revocation.
 
 
-##Snapchat Utilities (snapchat_utils.py)
+## Snapchat Utilities (snapchat_utils.py)
 
 In the upload_video_to_snapchat function of the snapchat_utils file, you'll find patterns where you can input your appropriate data.
 
@@ -103,7 +103,7 @@ Be mindful of any rate limits, usage quotas, or restrictions imposed by Snapchat
 Ensure your API usage complies with all legal requirements and Snapchat's terms of service.
 
 
-##Threads Utilities (threads_utils.py)
+## Threads Utilities (threads_utils.py)
 
 In the upload_video function of the threads_utils file, you'll find patterns where you can input your appropriate data.
 
@@ -147,7 +147,7 @@ Thoroughly test your application, handling any exceptions or errors.
 By following these steps, you can obtain and utilize API keys to interact with various social media platforms and services. Remember, each platform may have its unique processes and requirements, so refer to official documentation for precise instructions.
 
 
-##TikTok Utilities (tiktok_utils.py)
+## TikTok Utilities (tiktok_utils.py)
 
 In the upload_video function of the tiktok_utils file, you'll find patterns where you can input your appropriate data.
 
@@ -174,7 +174,7 @@ Stay Updated:
 API Changes: Keep informed about any updates or changes to the API as platforms like TikTok frequently update their APIs, potentially altering access permissions or functionalities.
 
 
-##Twitter Utilities (twitter_utils.py)
+## Twitter Utilities (twitter_utils.py)
 
 In the upload_video function of the twitter_utils file, you'll find patterns where you can input your appropriate data.
 
@@ -203,7 +203,7 @@ Permissions: Configure your app's permissions (read, write, Direct Messages) in 
 By following these steps, you'll be equipped to set up and obtain the necessary credentials for interacting with the Twitter API, enabling functionalities like video uploads and other operations.
 
 
-##WhatsApp Utilities (whatsapp_utils.py)
+## WhatsApp Utilities (whatsapp_utils.py)
 
 In the send_video_to_group function of the whatsapp_utils file, you'll find patterns where you can input your appropriate data.
 
